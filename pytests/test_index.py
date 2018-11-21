@@ -4,7 +4,7 @@ import pytest
 import importlib
 
 # importing objects from the jupyter notebook here
-from ipynb.fs.full.index import # variable names go here
+from ipynb.fs.full.index import A, B, C, U, A_inters_B,A_union_C, A_comp, A_union_B_comp, B_inters_C_comp, A_min_B, C_min_B_min_A, C_inters_A_union_C_min_B, left_hand_eq, right_hand_eq, Nina, Mary, Eve # variable names go here
 
 # format for writing tests
 # all functions that are to be run by test suite *must* be prepended with test_
